@@ -1,8 +1,8 @@
 ﻿int length = 4;
 string[] firstArray = GetArray(length);
-string[] secondArray = GenerateSecondArray(firstArray);
+string[] secondArray = GetNewArray(firstArray);
 
-string[] GenerateSecondArray(string[] array)
+string[] GetNewArray(string[] array)
 {
     string[] secondArray = new string[length];
 
